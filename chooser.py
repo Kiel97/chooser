@@ -58,7 +58,20 @@ def main():
             print("\n" + title)
             for item in selected:
                 print(item)
+
+            # Save selected options to one file
+            write_options_to_file(filepath, "selected", title, selected)
+
+            # Rest of options to another one
+            write_options_to_file(filepath, "left", title, options)
+
             break
+    
+def write_options_to_file(filepath, suffix, title, items):
+     with open(filepath + "_" + suffix + ".txt", "w") as file:
+                file.write(title + "\n")
+                for item in items:
+                    file.write(item + "\n")
 
 def clear_last_line():
     sys.stdout.write("\033[F") #back to previous line
