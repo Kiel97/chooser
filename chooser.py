@@ -1,8 +1,9 @@
-import keyboard
-import random
+from keyboard import is_pressed
+from random import choice
 import sys
 
 def main():
+    # Warning! Keyboard module requires root priviliges on Linux; run with sudo
 
     # Prepare variables
     amount = 0
@@ -40,7 +41,7 @@ def main():
         # Choose option, remove it from options and push it to selected
         # Print it to console
         for i in range(amount):
-            s = random.choice(options)
+            s = choice(options)
             options.remove(s)
             selected.append(s)
             print(s)
@@ -51,7 +52,7 @@ def main():
 
         # Detect Spacebar press and stop randomizer
         # Print finally selected option(s)
-        if keyboard.is_pressed('space'):
+        if is_pressed('space'):
             clear_last_line()
             
             print("\n" + title)
