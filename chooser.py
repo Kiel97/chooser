@@ -69,9 +69,9 @@ def main():
     
 def write_options_to_file(filepath, suffix, title, items):
      with open(filepath + "_" + suffix + ".txt", "w") as file:
-                file.write(title + "\n")
+                file.write(title)
                 for item in items:
-                    file.write(item + "\n")
+                    file.write("\n" + item)
 
 def clear_last_line():
     sys.stdout.write("\033[F") #back to previous line
