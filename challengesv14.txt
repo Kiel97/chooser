@@ -1,0 +1,101 @@
+Your next programming challenge is:
+Name generator(+ credentials)
+Higher/lower, heads/tails
+Temperature converter
+Calculate age in seconds (with leap years)
+Encryption/decryption algorithm
+FizzBuzz
+Rock, Paper, scissors (+ lizard, Spock)
+Project Euler (in every language you know)
+Hangman
+Love calculator
+Random sentence generator
+Password/passphrase generator
+Internet time ((S)NTP)
+Haiku generator
+Magic eight ball
+Collatz conjecture
+Reverse a string
+Eulerian path
+Simple file explorer
+Count words in a string (lines, sentences, paragraphs, typos, &c.)
+Minesweeper
+Connect four
+BMI calculator
+4chan thread/image downloader
+Sudoku generator/solver
+Maze generator/solver (random graphs/trees)
+Radix (base) converter
+Picross solver
+Fibonacci sequence
+Factorial
+Cipher encryption/decryption tool
+Blackjack
+Dungeon & Dragons with AI
+Generate ASCII tree
+Genetic algorithms on polygons
+Benfold's law
+Currency converter (+ various units, comodities, etc.; + history)
+Static website generator
+Crossword game
+Scientific calculator (CLI or GUI)
+Perlin noise
+Image viewer
+ASCII digital clock
+Dijkstra's algorithm
+Text/Morse code translator(+ sound)
+Tic-tac-toe
+Snake game
+FTP client(+ server)
+Telnet server(+ client, netctat clone?)
+IMP interpreter
+Tetris
+Conway's Game of Life (other cell. automata)
+Web crawler
+Text editor
+RSS feed reader
+RPN calculator
+Mandelbrot set(+ other fractals)
+Sorting algorithms(+ visualisation)
+Custom markup -> HTML converter
+N queens problem
+Flow in a network (Ford-Fulkerson algo.)
+Credential validator (phone, email, &c.)
+Linked list (single, double)
+Mastermind
+Random image generator (parametric)
+Ulam spiral
+Klingon translator
+Prime number generator using a sieve
+Markov chains (random text generator)
+Graphical analog clock
+Two languages communicating with each other (C++ & Java, Lisp & Python, &c.)
+Triangle number calculator
+Typing speed calculator
+Name art in ASCII
+Towers of Hanoi (more disks, more poles)
+Quine
+IRC bot
+Brainfuck interpreter (+ optimization, multiple targets)
+Knight's tour
+Chip-8 emulator
+Geekcode generator (3.12)
+Define, translate & rotate a polygon (+ other affine transformations)
+Pong with variable vectors
+Battleships with AI
+Simple paint program
+TCP chat with basic encryption
+Incremental economy simulator (a la Time of Exploration)
+Encrypting data in images (steganography)
+Pascal's triangle
+Sine wave generator from pseudorandom numbers
+Flappy Bird
+Fourier transform (fast or 'slow'; + visualisation)
+Method ringing simulator
+Binary search (n-ary)
+Nintendo Oil Panic
+Sierpiński triangle
+Dot & cross product of two vectors (exterior product)
+Little Man computer simulation
+Lisp interpreter
+Enigma simulator with a configuration file (+ decrypt messages without known settings)
