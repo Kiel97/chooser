@@ -19,3 +19,7 @@ In first line there is a title you want to be displayed when choice was made
 In next lines include your options one per-line.
 
 Tips: Try to keep options as short as possible. There is an issue with long strings which breaks application functionality.
+
+### Here's how Chooser looks like when running
+![](showcase1.gif)
+![](showcase2.gif)
