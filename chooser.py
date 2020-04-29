@@ -16,10 +16,14 @@ def main():
     filepath = input("Enter file name of your list of items to choose from: ")
 
     # Read title in first line, then read options and remove whitespaces around them
-    with open(filepath, "r") as file:
-        title = file.readline().strip()
-        for line in file.readlines():
-            content.append(line.strip())
+    try:
+        with open(filepath, "r") as file:
+            title = file.readline().strip()
+            for line in file.readlines():
+                content.append(line.strip())
+    except IOError as e:
+        print(e)
+        return
 
     size = len(content)
 
@@ -59,19 +63,27 @@ def main():
             for item in selected:
                 print(item)
 
-            # Save selected options to one file
-            write_options_to_file(filepath, "selected", title, selected)
+            try:
+                # Save selected options to one file
+                write_options_to_file(filepath, "selected", title, selected)
 
-            # Rest of options to another one
-            write_options_to_file(filepath, "left", title, options)
+                # Rest of options to another one
+                write_options_to_file(filepath, "left", title, options)
+            except IOError as e:
+                print(e)
+                return
 
             break
     
 def write_options_to_file(filepath, suffix, title, items):
-     with open(filepath + "_" + suffix + ".txt", "w") as file:
-                file.write(title)
-                for item in items:
-                    file.write("\n" + item)
+    try:
+        with open(filepath + "_" + suffix + ".txt", "w") as file:
+                    file.write(title)
+                    for item in items:
+                        file.write("\n" + item)
+    except IOError as e:
+        print(e)
+        raise IOError(e)
 
 def clear_last_line():
     sys.stdout.write("\033[F") #back to previous line
